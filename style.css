@@ -109,26 +109,10 @@ background-color:whitesmoke;
     resize: horizontal;
     border-radius: 10px;
     border-width: 0px;
+    overflow: hidden;
     
 
 }
-.code textarea::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-.code textarea::-webkit-scrollbar-track {
-  background: #f1f1f1; 
-}
- 
-/* Handle */
-.code textarea::-webkit-scrollbar-thumb {
-  background: #888; 
-}
-
-/* Handle on hover */
-.code textarea::-webkit-scrollbar-thumb:hover {
-    background: #555;} 
 .code textarea::-webkit-scrollbar {
     width: .4rem;
 }
