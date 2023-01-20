@@ -1,0 +1,130 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.code-editor {
+    height: 100%;
+    font-family: serif;
+    display: flex;
+background-color: #333;
+    
+}
+/*Navbar for ide*/
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+  background-color: #111;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+li a:hover:not(.active) {
+  background-color: black;
+}
+
+li a.active {
+  color: white;
+background-color: black;
+}
+
+
+
+/*Navbar for ide*/
+
+/*toogle me*/
+
+.dark-mode {
+  background-color: blue;
+  color: red;
+}
+
+
+/*toogle me*/
+
+.code-editor {
+    width: 100%;
+    height: 100vh;
+margin-left: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: whitesmoke;
+
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+
+.code {
+    display: grid;
+    overflow-y: auto;
+    background-color: #333;
+    padding: 10px;
+
+    width: 100%;
+}
+
+h1 {
+    font: 600 1.1rem Serif;
+    margin: 1rem 0;
+    color: whitesmoke;
+}
+
+h1 > img {
+    width: 1.3rem;
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+.tog{
+background-color:whitesmoke;
+}
+.code textarea {
+    width: 90%;
+    height: calc(100% - 4rem);
+    background-color: black;
+    color:whitesmoke;
+    padding: 10px;
+    margin: 2px;
+    font-size: 1.1rem;
+    resize: horizontal;
+    border-radius: 10px;
+    border-width: 0px;
+    
+
+}
+
+.code textarea::-webkit-scrollbar {
+    width: .4rem;
+}
+.code textarea::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: .4rem;
+}
+
+#result {
+    width: 100%;
+    height: 95%;
+    margin-left: 0px;
+    margin-right: 0px;
+   border-width: 0px;
+}
