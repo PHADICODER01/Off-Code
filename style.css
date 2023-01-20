@@ -110,28 +110,25 @@ background-color:whitesmoke;
     border-radius: 10px;
     border-width: 0px;
     
-    
-::-webkit-scrollbar {
+
+}
+.code textarea::-webkit-scrollbar {
   width: 10px;
 }
 
 /* Track */
-::-webkit-scrollbar-track {
+.code textarea::-webkit-scrollbar-track {
   background: #f1f1f1; 
 }
  
 /* Handle */
-::-webkit-scrollbar-thumb {
+.code textarea::-webkit-scrollbar-thumb {
   background: #888; 
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555; 
-}
-
-}
-
+.code textarea::-webkit-scrollbar-thumb:hover {
+    background: #555;} 
 .code textarea::-webkit-scrollbar {
     width: .4rem;
 }
