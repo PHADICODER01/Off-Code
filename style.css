@@ -109,7 +109,7 @@ background-color:whitesmoke;
     resize: horizontal;
     border-radius: 10px;
     border-width: 0px;
-    overflow:default;
+    overflow:scroll;
     
 
 }
